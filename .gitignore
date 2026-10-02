@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Input media
+*.mp4
+*.mkv
+*.mov
+*.avi
+*.webm
+*.m4a
+*.mp3
+*.wav
+*.flac
+
+# Generated outputs
+*_slides.pdf
+*_transcript_raw.json
+*_slide_timeline.json
+
+# Temporary work directories and files
+*_work_*/
+*.tmp
+*.temp
+
+# Local model and cache directories
+.cache/
+models/
+
+# Logs
+*.log
